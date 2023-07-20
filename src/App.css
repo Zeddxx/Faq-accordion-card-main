@@ -1,0 +1,16 @@
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to bottom, var(--soft-violet), var(--soft-blue));
+}
+
+@media (width <= 728px){
+  .App{
+    align-items: flex-end;
+  }
+}
